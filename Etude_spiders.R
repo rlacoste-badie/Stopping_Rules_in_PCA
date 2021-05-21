@@ -5,7 +5,7 @@ library("factoextra")
 #######################IMPORTATION DES DONNÉES#################################
 ###############################################################################
 
-spi = read.table("Spiders_env_28x15.txt")
+spi = read.table("spider.txt")
 
 #########      Visualisation de l'ACP         #################################
 pca <- PCA(spi, scale=TRUE)
